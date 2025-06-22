@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Chuyển Đổi Nhiệt Độ"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ViewF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Độ F"
+        android:textAlignment="textStart"
+        android:layout_marginTop="10dp"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Vui lòng nhập độ F"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/ViewC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Độ C"
+        android:textAlignment="textStart"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Vui lòng nhập độ C"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Chuyển đổi sang độ C" />
+
+        <Button
+            android:id="@+id/btnF"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Chuyển đổi sang độ F" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnXoa"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:text="Xóa" />
+
+</LinearLayout>

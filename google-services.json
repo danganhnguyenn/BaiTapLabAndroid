@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "990522610990",
+    "project_id": "th8-ltandroid",
+    "storage_bucket": "th8-ltandroid.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990522610990:android:05c68cdafdb3ae053116bf",
+        "android_client_info": {
+          "package_name": "com.example.th8_ltandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZe0pidJFIbVbfeUIxyE5Ywkyz5UdoG5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+# Build folders
+/build/
+/app/build/
+/.gradle/
+.local/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# Keystore (quan trọng: không đẩy lên GitHub)
+*.jks
+*.keystore
+*.pem
+
+# Signing files
+signing.properties
+key.properties
+
+# Caches
+.cxx/
+*.apk
+*.ap_
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# crashlytics / fabric
+crashlytics-build.properties
+fabric.properties
+
+# Local properties (đường dẫn SDK máy bạn)
+local.properties
+
+# NDK
+.externalNativeBuild/
+
+# Flutter (nếu có)
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# Unit test
+test-output/
+
+# Android Patch
+*.rej
+
+# Generated files
+captures/
+outputs/
